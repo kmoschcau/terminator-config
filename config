@@ -11,6 +11,12 @@
   title_transmit_fg_color = "#fbf1c7"
   title_use_system_font = False
 [keybindings]
+  line_down = <Primary><Shift>Down
+  line_up = <Primary><Shift>Up
+  resize_down = None
+  resize_left = None
+  resize_right = None
+  resize_up = None
 [layouts]
   [[default]]
     [[[child1]]]
