@@ -32,10 +32,11 @@
     background_darkness = 0.9
     background_type = transparent
     copy_on_selection = True
-    cursor_color = "#39adb5"
+    cursor_color = "#00bcd4"
+    cursor_color_fg = False
     font = Hack 10
     foreground_color = "#666666"
-    palette = "#34383a:#e53935:#82a550:#ffad13:#6182b8:#945eb8:#39adb5:#899799:#646c6f:#ff5370:#c3e88d:#ffe57f:#82aaff:#bb80b3:#89ddff:#b4c3c5"
+    palette = "#34383a:#e53935:#82a550:#ffad13:#6182b8:#945eb8:#39adb5:#899799:#646c6f:#ff5370:#c3e88d:#ffc14b:#82aaff:#bb80b3:#89ddff:#b4c3c5"
     scrollback_infinite = True
     scrollbar_position = hidden
     show_titlebar = False
