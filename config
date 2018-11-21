@@ -10,6 +10,10 @@
   title_transmit_fg_color = "#fafafa"
   title_use_system_font = False
 [keybindings]
+  group_all = None
+  group_all_toggle = <Super>g
+  group_tab = None
+  group_tab_toggle = <Super>t
   line_down = <Primary><Shift>Down
   line_up = <Primary><Shift>Up
   resize_down = None
