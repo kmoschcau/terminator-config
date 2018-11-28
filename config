@@ -38,7 +38,7 @@
     copy_on_selection = True
     cursor_color = "#00bcd4"
     cursor_color_fg = False
-    font = Hack 10
+    font = Hack 9
     foreground_color = "#666666"
     palette = "#34383a:#e53935:#82a550:#ffad13:#6182b8:#945eb8:#39adb5:#aababc:#869093:#ff5370:#adce7d:#ffc14b:#82aaff:#bb80b3:#89ddff:#cddcde"
     scrollback_infinite = True
