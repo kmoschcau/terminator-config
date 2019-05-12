@@ -2,12 +2,12 @@
   focus = mouse
   title_font = Hack 10
   title_hide_sizetext = True
-  title_inactive_bg_color = "#eaeff0"
-  title_inactive_fg_color = "#90a4ae"
-  title_receive_bg_color = "#ffad13"
-  title_receive_fg_color = "#fafafa"
-  title_transmit_bg_color = "#39adb5"
-  title_transmit_fg_color = "#fafafa"
+  title_inactive_bg_color = "#455a64"
+  title_inactive_fg_color = "#eceff1"
+  title_receive_bg_color = "#ff9800"
+  title_receive_fg_color = "#eceff1"
+  title_transmit_bg_color = "#00b8d4"
+  title_transmit_fg_color = "#eceff1"
   title_use_system_font = False
 [keybindings]
   group_all = None
@@ -32,15 +32,15 @@
 [plugins]
 [profiles]
   [[default]]
-    background_color = "#fafafa"
+    background_color = "#eceff1"
     background_darkness = 0.9
     background_type = transparent
     copy_on_selection = True
     cursor_color = "#00bcd4"
     cursor_color_fg = False
     font = Hack 9
-    foreground_color = "#666666"
-    palette = "#34383a:#e53935:#82a550:#ffad13:#6182b8:#945eb8:#39adb5:#aababc:#869093:#ff5370:#adce7d:#ffc14b:#82aaff:#bb80b3:#89ddff:#cddcde"
+    foreground_color = "#455a64"
+    palette = "#424242:#f44336:#8bc34a:#ffc107:#2196f3:#9c27b0:#00bcd4:#9e9e9e:#bdbdbd:#e57373:#aed581:#ffd54f:#64b5f6:#ba68c8:#4dd0e1:#e0e0e0"
     scrollback_infinite = True
     scrollbar_position = hidden
     show_titlebar = False
