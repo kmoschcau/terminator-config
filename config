@@ -1,6 +1,6 @@
 [global_config]
   focus = mouse
-  title_font = Hack Nerd Font 10
+  title_font = Hack Nerd Font 9
   title_hide_sizetext = True
   title_inactive_bg_color = "#455a64"
   title_inactive_fg_color = "#eceff1"
