@@ -18,6 +18,7 @@
   group_all_toggle = <Super>g
   group_tab = None
   group_tab_toggle = <Super>t
+  layout_launcher = None
   line_down = <Primary><Shift>Down
   line_up = <Primary><Shift>Up
   resize_down = None
