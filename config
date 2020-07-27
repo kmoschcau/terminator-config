@@ -1,30 +1,45 @@
 [global_config]
   focus = mouse
-  title_font = Arimo Nerd Font 10
   title_hide_sizetext = True
-  title_inactive_bg_color = "#616161"
-  title_inactive_fg_color = "#fafafa"
-  title_receive_bg_color = "#ff9800"
-  title_receive_fg_color = "#fafafa"
-  title_transmit_bg_color = "#00b8d4"
   title_transmit_fg_color = "#fafafa"
+  title_transmit_bg_color = "#00b8d4"
+  title_receive_fg_color = "#fafafa"
+  title_receive_bg_color = "#ff9800"
+  title_inactive_fg_color = "#fafafa"
+  title_inactive_bg_color = "#616161"
   title_use_system_font = False
+  title_font = Arimo Nerd Font 10
 [keybindings]
+  go_up = None
   go_down = None
   go_left = None
   go_right = None
-  go_up = None
+  line_up = <Primary><Shift>Up
+  line_down = <Primary><Shift>Down
+  resize_up = None
+  resize_down = None
+  resize_left = None
+  resize_right = None
   group_all = None
   group_all_toggle = <Super>g
   group_tab = None
   group_tab_toggle = <Super>t
   layout_launcher = None
-  line_down = <Primary><Shift>Down
-  line_up = <Primary><Shift>Up
-  resize_down = None
-  resize_left = None
-  resize_right = None
-  resize_up = None
+[profiles]
+  [[default]]
+    background_color = "#fafafa"
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_color = "#00bcd4"
+    cursor_color_fg = False
+    font = FiraMono Nerd Font Mono 10
+    foreground_color = "#616161"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#424242:#f44336:#8bc34a:#ffa000:#2196f3:#9c27b0:#00bcd4:#9e9e9e:#bdbdbd:#e57373:#aed581:#ffc107:#64b5f6:#ba68c8:#4dd0e1:#e0e0e0"
+    use_system_font = False
+    copy_on_selection = True
 [layouts]
   [[default]]
     [[[child1]]]
@@ -35,18 +50,3 @@
       parent = ""
       type = Window
 [plugins]
-[profiles]
-  [[default]]
-    background_color = "#fafafa"
-    background_darkness = 0.9
-    background_type = transparent
-    copy_on_selection = True
-    cursor_color = "#00bcd4"
-    cursor_color_fg = False
-    font = FuraCode Nerd Font Mono 10
-    foreground_color = "#616161"
-    palette = "#424242:#f44336:#8bc34a:#ffa000:#2196f3:#9c27b0:#00bcd4:#9e9e9e:#bdbdbd:#e57373:#aed581:#ffc107:#64b5f6:#ba68c8:#4dd0e1:#e0e0e0"
-    scrollback_infinite = True
-    scrollbar_position = hidden
-    show_titlebar = False
-    use_system_font = False
